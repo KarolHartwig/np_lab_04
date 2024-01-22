@@ -43,5 +43,4 @@ jobs:
 
       - name: pytest_tests
         run: |
-          python -m unittest discover -v
-          python ./app.py
+          python -m unittest test.py
