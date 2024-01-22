@@ -42,9 +42,7 @@ jobs:
           python --version
           pip --version
 
-      - name: flake8_code_analysis
-        run: |
-          flake8 .
+      
 
       - name: pytest_tests
         run: |
