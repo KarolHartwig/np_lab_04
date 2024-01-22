@@ -27,6 +27,9 @@ jobs:
         run: |
           python -m pip install --upgrade pip
 
+      - name: run_app
+        run: python app.py
+
       - name: flake8&pytest_install
         run: |
           python -m pip install flake8
